@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CAB4524177B0CA700049CCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAB4523177B0CA700049CCD /* Foundation.framework */; };
+		2CAB4526177B0CA700049CCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAB4525177B0CA700049CCD /* CoreGraphics.framework */; };
+		2CAB4528177B0CA700049CCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAB4527177B0CA700049CCD /* UIKit.framework */; };
+		2CAB4530177B0CA700049CCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB452F177B0CA700049CCD /* main.m */; };
+		2CAB4534177B0CA700049CCD /* STAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB4533177B0CA700049CCD /* STAppDelegate.m */; };
+		2CAB4554177B0D3A00049CCD /* STViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB4553177B0D3A00049CCD /* STViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CAB4520177B0CA700049CCD /* STIOS7NavigationControllerTestcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STIOS7NavigationControllerTestcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAB4523177B0CA700049CCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2CAB4525177B0CA700049CCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2CAB4527177B0CA700049CCD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2CAB452B177B0CA700049CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CAB452F177B0CA700049CCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CAB4532177B0CA700049CCD /* STAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppDelegate.h; sourceTree = "<group>"; };
+		2CAB4533177B0CA700049CCD /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
+		2CAB4552177B0D3A00049CCD /* STViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STViewController.h; sourceTree = "<group>"; };
+		2CAB4553177B0D3A00049CCD /* STViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CAB451D177B0CA700049CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAB4526177B0CA700049CCD /* CoreGraphics.framework in Frameworks */,
+				2CAB4528177B0CA700049CCD /* UIKit.framework in Frameworks */,
+				2CAB4524177B0CA700049CCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CAB4517177B0CA700049CCD = {
+			isa = PBXGroup;
+			children = (
+				2CAB4529177B0CA700049CCD /* STIOS7NavigationControllerTestcase */,
+				2CAB4522177B0CA700049CCD /* Frameworks */,
+				2CAB4521177B0CA700049CCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CAB4521177B0CA700049CCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CAB4520177B0CA700049CCD /* STIOS7NavigationControllerTestcase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CAB4522177B0CA700049CCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CAB4523177B0CA700049CCD /* Foundation.framework */,
+				2CAB4525177B0CA700049CCD /* CoreGraphics.framework */,
+				2CAB4527177B0CA700049CCD /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CAB4529177B0CA700049CCD /* STIOS7NavigationControllerTestcase */ = {
+			isa = PBXGroup;
+			children = (
+				2CAB452B177B0CA700049CCD /* Info.plist */,
+				2CAB452F177B0CA700049CCD /* main.m */,
+				2CAB4532177B0CA700049CCD /* STAppDelegate.h */,
+				2CAB4533177B0CA700049CCD /* STAppDelegate.m */,
+				2CAB4552177B0D3A00049CCD /* STViewController.h */,
+				2CAB4553177B0D3A00049CCD /* STViewController.m */,
+			);
+			path = STIOS7NavigationControllerTestcase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CAB451F177B0CA700049CCD /* STIOS7NavigationControllerTestcase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CAB454C177B0CA700049CCD /* Build configuration list for PBXNativeTarget "STIOS7NavigationControllerTestcase" */;
+			buildPhases = (
+				2CAB451C177B0CA700049CCD /* Sources */,
+				2CAB451D177B0CA700049CCD /* Frameworks */,
+				2CAB451E177B0CA700049CCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STIOS7NavigationControllerTestcase;
+			productName = STIOS7NavigationControllerTestcase;
+			productReference = 2CAB4520177B0CA700049CCD /* STIOS7NavigationControllerTestcase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CAB4518177B0CA700049CCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ST;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Scott Talbot";
+			};
+			buildConfigurationList = 2CAB451B177B0CA700049CCD /* Build configuration list for PBXProject "STIOS7NavigationControllerTestcase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CAB4517177B0CA700049CCD;
+			productRefGroup = 2CAB4521177B0CA700049CCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CAB451F177B0CA700049CCD /* STIOS7NavigationControllerTestcase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CAB451E177B0CA700049CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CAB451C177B0CA700049CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAB4554177B0D3A00049CCD /* STViewController.m in Sources */,
+				2CAB4530177B0CA700049CCD /* main.m in Sources */,
+				2CAB4534177B0CA700049CCD /* STAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2CAB454A177B0CA700049CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CAB454B177B0CA700049CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CAB454D177B0CA700049CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "$(SRCROOT)/STIOS7NavigationControllerTestcase/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2CAB454E177B0CA700049CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "$(SRCROOT)/STIOS7NavigationControllerTestcase/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CAB451B177B0CA700049CCD /* Build configuration list for PBXProject "STIOS7NavigationControllerTestcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CAB454A177B0CA700049CCD /* Debug */,
+				2CAB454B177B0CA700049CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CAB454C177B0CA700049CCD /* Build configuration list for PBXNativeTarget "STIOS7NavigationControllerTestcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CAB454D177B0CA700049CCD /* Debug */,
+				2CAB454E177B0CA700049CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CAB4518177B0CA700049CCD /* Project object */;
+}
